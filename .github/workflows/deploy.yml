@@ -16,5 +16,5 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: Allianaab2m/tourcord
-          publish_branch: master
+          publish_branch: gh-pages
           publish_dir: ./site
