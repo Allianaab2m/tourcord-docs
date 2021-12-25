@@ -1,6 +1,7 @@
 site_name: Tourcord docs
 theme:
   name: material
+  language: ja
   features:
     - navigation.instant
     - navigation.tabs
@@ -8,12 +9,27 @@ theme:
     - navigation.expand
     - toc.integrate
   custom_dir: custom_theme
+  palette:
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: ダークモードに切り替えます。
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: ライトモードに切り替えます。
+
+repo_url: https://github.com/allianaab2m/tourcord
 
 nav:
   - トップページ: index.md
   - 参加者用コマンド:
       - コマンド一覧: member/index.md
-  - 運営用コマンド:
+  - 運営者用コマンド:
       - コマンド一覧: admin/index.md
 
 markdown_extensions:
@@ -21,3 +37,10 @@ markdown_extensions:
 
 extra_css:
   - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Alliana_ab2m
+
+copyright: Copyright &copy; 2021 Alliana
